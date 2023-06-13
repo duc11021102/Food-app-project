@@ -12,7 +12,6 @@ const Menu = (props) => {
           img={menuItem.img}
           title={menuItem.title}
           price={menuItem.price}
-          desc={menuItem.desc}
         ></Dish>
       ))}
     </div>

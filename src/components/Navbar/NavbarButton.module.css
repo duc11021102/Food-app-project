@@ -14,8 +14,7 @@
   
   .button:hover,
   .button:active {
-    background-color: var(--clr-grey-10);
-    color: var(--clr-gold);
+    background-color: #C07F00;
   }
   
   .icon {
@@ -30,12 +29,6 @@
     border-radius: 25px;
     margin-left: 1rem;
     font-weight: bold;
-  }
-  
-  .button:hover .badge,
-  .button:active .badge {
-    background-color:white;
-    color: var(--clr-gold);
   }
   
   .bump {

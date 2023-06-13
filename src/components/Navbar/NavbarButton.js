@@ -37,7 +37,7 @@ const NavbarButton = (props) => {
   }, [items]);
 
   return (
-    <button onClick={props.onClick}className={btnClasses}>
+    <button onClick={props.onClick} className={btnClasses}>
       <span className={classes.icon}>
         <CartIcon></CartIcon>
       </span>
