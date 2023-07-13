@@ -11,6 +11,8 @@ const Navbar = (props) => {
   return (
     <nav className={styles.nav}>
       <div className={`${styles["nav-center"]}`}>
+
+
         <div className={`${styles["nav-header"]}`}>
           <img src={logo} className={styles.logo} alt="logo" />
           <h2>VinFood</h2>
@@ -18,15 +20,25 @@ const Navbar = (props) => {
             <FaBars />
           </button>
         </div>
+
         <div className={`${styles["nav-header"]}`}>
+
           <div className={`${styles["nav-navigation"]}`}>
             {ctx.isLoggedIn && <Navigation></Navigation>}
           </div>
+
+
           <div className={`${styles["nav-btnCart"]}`}>
             {ctx.isLoggedIn && <NavbarButton onClick={props.onClick}></NavbarButton>}
           </div>
+
         </div>
+
+
+
       </div>
+
+
     </nav>
   );
 };
